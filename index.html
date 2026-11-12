@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FlowSync — Keep Your Team in Sync</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <!-- ===== NAVIGATION ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        <svg class="logo-icon" viewBox="0 0 32 32" width="32" height="32" fill="none">
+          <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2.5"/>
+          <path d="M10 16 L15 21 L22 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        <span>FlowSync</span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li class="nav-cta-mobile"><a href="#contact" class="btn btn-primary btn-sm">Get Started</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary btn-sm nav-cta-desktop">Get Started</a>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="container hero-container">
+      <div class="hero-content">
+        <span class="badge">🚀 Now with AI-powered insights</span>
+        <h1>Manage Projects.<br/><span class="gradient-text">Stay in Sync.</span></h1>
+        <p class="hero-description">
+          FlowSync is the all-in-one project management platform that helps teams
+          plan, track, and deliver work faster — without the chaos.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary btn-lg">Request a Demo</a>
+          <a href="#how-it-works" class="btn btn-outline btn-lg">See How It Works</a>
+        </div>
+        <div class="hero-social-proof">
+          <div class="avatars">
+            <span class="avatar" style="background:#6366f1;">A</span>
+            <span class="avatar" style="background:#f59e0b;">B</span>
+            <span class="avatar" style="background:#10b981;">C</span>
+            <span class="avatar" style="background:#ef4444;">D</span>
+          </div>
+          <p><strong>2,500+</strong> teams already use FlowSync</p>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="dashboard-mockup">
+          <div class="mockup-header">
+            <span class="dot red"></span>
+            <span class="dot yellow"></span>
+            <span class="dot green"></span>
+            <span class="mockup-title">FlowSync Dashboard</span>
+          </div>
+          <div class="mockup-body">
+            <div class="mockup-sidebar">
+              <div class="sidebar-item active"></div>
+              <div class="sidebar-item"></div>
+              <div class="sidebar-item"></div>
+              <div class="sidebar-item"></div>
+            </div>
+            <div class="mockup-main">
+              <div class="mockup-card-row">
+                <div class="mini-card blue">
+                  <div class="mini-card-icon">📋</div>
+                  <div class="mini-card-label">Tasks</div>
+                  <div class="mini-card-value">24</div>
+                </div>
+                <div class="mini-card green">
+                  <div class="mini-card-icon">✅</div>
+                  <div class="mini-card-label">Done</div>
+                  <div class="mini-card-value">18</div>
+                </div>
+                <div class="mini-card orange">
+                  <div class="mini-card-icon">⏳</div>
+                  <div class="mini-card-label">In Progress</div>
+                  <div class="mini-card-value">6</div>
+                </div>
+              </div>
+              <div class="mockup-chart">
+                <div class="bar" style="height:40%"></div>
+                <div class="bar" style="height:65%"></div>
+                <div class="bar" style="height:50%"></div>
+                <div class="bar" style="height:80%"></div>
+                <div class="bar" style="height:70%"></div>
+                <div class="bar" style="height:90%"></div>
+                <div class="bar" style="height:75%"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FEATURES ===== -->
+  <section class="features" id="features">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Features</span>
+        <h2>Everything your team needs</h2>
+        <p>Powerful tools to plan, collaborate, and ship — all in one place.</p>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon blue">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"/><rect x="14" y="3" width="7" height="7"/><rect x="3" y="14" width="7" height="7"/><rect x="14" y="14" width="7" height="7"/></svg>
+          </div>
+          <h3>Kanban & List Views</h3>
+          <p>Visualise your workflow with drag-and-drop boards or detailed list views. Switch between views instantly.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon purple">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Real-time Collaboration</h3>
+          <p>Work together seamlessly. See updates, comments, and file changes from your team as they happen.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon green">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+          </div>
+          <h3>Analytics & Reports</h3>
+          <p>Track progress with beautiful charts and automated reports. Identify bottlenecks before they slow you down.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon orange">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06A1.65 1.65 0 0 0 4.68 15a1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06A1.65 1.65 0 0 0 9 4.68a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06A1.65 1.65 0 0 0 19.4 9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"/></svg>
+          </div>
+          <h3>Automations</h3>
+          <p>Automate repetitive tasks with powerful rules. Set triggers, conditions, and actions — no code required.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon pink">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Enterprise Security</h3>
+          <p>SOC 2 compliant, SSO, role-based access, and data encryption at rest and in transit. Your data is safe.</p>
+        </div>
+        <div class="feature-card">
+          <div class="feature-icon teal">
+            <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+          </div>
+          <h3>Integrations</h3>
+          <p>Connect with Slack, GitHub, Figma, Google Drive and 100+ other tools your team already loves.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== HOW IT WORKS ===== -->
+  <section class="how-it-works" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">How It Works</span>
+        <h2>Get started in three simple steps</h2>
+        <p>No complex setup. No steep learning curve. Just results.</p>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Create Your Workspace</h3>
+            <p>Sign up and invite your team in seconds. Import existing projects from Trello, Asana, or Jira with one click.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Plan &amp; Organise</h3>
+            <p>Break work into tasks, set deadlines, assign owners, and choose your preferred view — board, list, or timeline.</p>
+          </div>
+        </div>
+        <div class="step-connector"></div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Track &amp; Deliver</h3>
+            <p>Monitor progress with live dashboards, get AI-powered status updates, and ship projects on time — every time.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRICING ===== -->
+  <section class="pricing" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Pricing</span>
+        <h2>Simple, transparent pricing</h2>
+        <p>Start free. Upgrade when you're ready. No hidden fees.</p>
+      </div>
+      <div class="pricing-grid">
+        <!-- Free Plan -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Starter</h3>
+            <p class="pricing-desc">For individuals &amp; small teams</p>
+          </div>
+          <div class="pricing-price">
+            <span class="price">$0</span>
+            <span class="period">/month</span>
+          </div>
+          <ul class="pricing-features">
+            <li><span class="check">✓</span> Up to 5 team members</li>
+            <li><span class="check">✓</span> Unlimited tasks</li>
+            <li><span class="check">✓</span> Kanban &amp; list views</li>
+            <li><span class="check">✓</span> Basic integrations</li>
+            <li><span class="check">✓</span> 1 GB storage</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-block">Get Started Free</a>
+        </div>
+        <!-- Pro Plan -->
+        <div class="pricing-card popular">
+          <div class="popular-badge">Most Popular</div>
+          <div class="pricing-header">
+            <h3>Professional</h3>
+            <p class="pricing-desc">For growing teams</p>
+          </div>
+          <div class="pricing-price">
+            <span class="price">$12</span>
+            <span class="period">/user/month</span>
+          </div>
+          <ul class="pricing-features">
+            <li><span class="check">✓</span> Unlimited team members</li>
+            <li><span class="check">✓</span> Timeline &amp; Gantt views</li>
+            <li><span class="check">✓</span> Advanced analytics</li>
+            <li><span class="check">✓</span> Automations</li>
+            <li><span class="check">✓</span> 100 GB storage</li>
+            <li><span class="check">✓</span> Priority support</li>
+          </ul>
+          <a href="#contact" class="btn btn-primary btn-block">Start Free Trial</a>
+        </div>
+        <!-- Enterprise Plan -->
+        <div class="pricing-card">
+          <div class="pricing-header">
+            <h3>Enterprise</h3>
+            <p class="pricing-desc">For large organisations</p>
+          </div>
+          <div class="pricing-price">
+            <span class="price">Custom</span>
+          </div>
+          <ul class="pricing-features">
+            <li><span class="check">✓</span> Everything in Professional</li>
+            <li><span class="check">✓</span> SSO &amp; SAML</li>
+            <li><span class="check">✓</span> Dedicated account manager</li>
+            <li><span class="check">✓</span> Custom integrations</li>
+            <li><span class="check">✓</span> Unlimited storage</li>
+            <li><span class="check">✓</span> SLA guarantee</li>
+          </ul>
+          <a href="#contact" class="btn btn-outline btn-block">Contact Sales</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT / DEMO REQUEST ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <span class="section-label">Get In Touch</span>
+          <h2>Ready to sync your team?</h2>
+          <p>Fill out the form and our team will reach out within 24 hours to schedule your personalised demo.</p>
+          <div class="contact-details">
+            <div class="contact-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+              <span>hello@flowsync.io</span>
+            </div>
+            <div class="contact-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <span>+1 (555) 123-4567</span>
+            </div>
+            <div class="contact-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>San Francisco, CA</span>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contactForm" novalidate>
+            <div class="form-group">
+              <label for="fullName">Full Name <span class="required">*</span></label>
+              <input type="text" id="fullName" name="fullName" placeholder="John Doe" required />
+              <span class="error-msg" id="nameError"></span>
+            </div>
+            <div class="form-group">
+              <label for="email">Work Email <span class="required">*</span></label>
+              <input type="email" id="email" name="email" placeholder="john@company.com" required />
+              <span class="error-msg" id="emailError"></span>
+            </div>
+            <div class="form-group">
+              <label for="company">Company</label>
+              <input type="text" id="company" name="company" placeholder="Company name" />
+            </div>
+            <div class="form-group">
+              <label for="teamSize">Team Size</label>
+              <select id="teamSize" name="teamSize">
+                <option value="" disabled selected>Select team size</option>
+                <option value="1-10">1 – 10</option>
+                <option value="11-50">11 – 50</option>
+                <option value="51-200">51 – 200</option>
+                <option value="200+">200+</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="4" placeholder="Tell us about your team's needs..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block btn-lg">Request a Demo</button>
+          </form>
+          <!-- Success Message -->
+          <div class="success-message" id="successMessage">
+            <div class="success-icon">
+              <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            </div>
+            <h3>Thank you! 🎉</h3>
+            <p>Your demo request has been submitted successfully. Our team will reach out to you within 24 hours.</p>
+            <button class="btn btn-outline" id="resetFormBtn">Submit Another Request</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <svg class="logo-icon" viewBox="0 0 32 32" width="28" height="28" fill="none">
+              <circle cx="16" cy="16" r="14" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M10 16 L15 21 L22 12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            <span>FlowSync</span>
+          </a>
+          <p>The smarter way to manage projects and keep your team in sync.</p>
+        </div>
+        <div class="footer-links">
+          <h4>Product</h4>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#how-it-works">How It Works</a></li>
+            <li><a href="#">Changelog</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Cookie Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 FlowSync, Inc. All rights reserved.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Twitter">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+          </a>
+          <a href="#" aria-label="GitHub">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
